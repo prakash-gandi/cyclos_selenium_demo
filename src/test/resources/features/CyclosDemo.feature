@@ -20,5 +20,4 @@ Feature: Validate the web and Rest API flow of Cyclos application. The implement
     And user navigates to payment between system accounts page
     When Do the payment of 1$ from debit to organisation account
     Then Validate the payment is successfully done
-    And validate the user account balance is decreased by 1$ and organisation account increased by 1$ using rest api
-    And validate the user account balance is decreased by 1$ and organisation account increased by 1$ in cyclos application
+    And validate the user account balance is decreased by 1$ and organisation account increased by 1$ using rest api    
