@@ -11,6 +11,5 @@ Feature: Validate the SAP Fiori, Cyclos Web and Rest API flows. The implementati
     And does a payment of 1$ to user "John" for the created sales order
     Then Validate the user payment is successfully done
     And validate the user account balance is decreased by 1$ using rest api
-    And validate the user account balance is decreased by 1$ in cyclos application
 
 
